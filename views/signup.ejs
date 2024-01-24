@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/stylesheets/signup.css">
+</head>
+<body>
+    <div class="container">
+      <a href="/" class="back"> Back to homePage </a>
+        <div class="box">
+          <h1>Sign Up</h1>
+          <div class="user">
+            <form action="/register" method="post">
+            <i class="fas fa-user"></i>
+            <input type="text" name="username" id="username" placeholder="Full Name">
+
+            <i class="fas fa-envelope"></i>
+            <input type="text" name="email" id="email" placeholder="Email Address">
+
+            <i class="fas fa-unlock-alt"></i>
+            <input type="password" name="password" id="password" placeholder="Password">
+
+            <!-- <i class="fas fa-unlock-alt"></i>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password"> -->
+          </div>
+          <div class="login-btn">
+            <button class="btn" type="submit">Submit</button>
+            <p class="signup">Already have an account ? <a href="/login"><span>Log In</span> </a></p>
+          </div>
+
+        </form>
+        </div>
+      </div>
+    
+</body>
+</html>
+
